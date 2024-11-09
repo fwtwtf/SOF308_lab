@@ -50,7 +50,25 @@
               <li><hr class="dropdown-divider" /></li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab 3
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/lab3/bai1">Bai 1</a></li>
+             
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
         </ul>
+
         <form class="d-flex" role="search">
           <input
             class="form-control me-2"

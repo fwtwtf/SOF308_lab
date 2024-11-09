@@ -60,6 +60,50 @@
   </nav>
 
   <div class="container">
+     <!-- Carousel Section -->
+     <div id="blogCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/banner1.jpg" class="d-block w-100" alt="Image 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bài viết nổi bật 1</h5>
+            <p>Mô tả ngắn về bài viết nổi bật 1</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/banner2.jpg" class="d-block w-100" alt="Image 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bài viết nổi bật 2</h5>
+            <p>Mô tả ngắn về bài viết nổi bật 2</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/banner3.jpg" class="d-block w-100" alt="Image 3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bài viết nổi bật 3</h5>
+            <p>Mô tả ngắn về bài viết nổi bật 3</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#blogCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#blogCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   <section class="row">
     <!-- Sidebar thông tin cá nhân bên trái -->
     <aside class="col-sm-4 p-3 rounded">
@@ -102,14 +146,14 @@
 
   <div class="row">
     <!-- Main Post -->
-    <div class="col-md-8 main-post">
+    <div class="col-md-8 main-post card">
       <h5>Phương pháp tập Pilates giúp phục hồi chấn thương cột sống <span class="text-muted">💬 16</span></h5>
       <img src="/images/tap-piltes.jpg" alt="" style="width: 550px">
       <p>Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...</p>
     </div>
 
     <!-- Related Posts -->
-    <div class="col-md-4 related-posts">
+    <div class="col-md-4 related-posts card">
       <div class="media">
         <img src="/images/corevalue.jpg" alt="Post Image" style="width: 50px">
         <div class="media-body">
