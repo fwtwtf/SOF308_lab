@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">PY00146</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -63,6 +63,70 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/lab3/bai1">Bai 1</a></li>
+             
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab 5
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/lab5/bai1">Bai 1</a></li>
+              <li><a class="dropdown-item" href="/lab5/bai2">Bai 2</a></li>
+              <li><a class="dropdown-item" href="/lab5/bai3">Bai 3</a></li>
+             
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab 6
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/lab6/bai1">Bai 1</a></li>
+              <li><a class="dropdown-item" href="/lab6/bai2">Bai 2</a></li>
+              <li><a class="dropdown-item" href="/lab6/bai3">Bai 3</a></li>
+
+              <li><a class="dropdown-item" href="/lab6/bai4">Bai 4</a></li>
+             
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab 7
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/lab7/bai1">Bai 1</a></li>
+              <li><a class="dropdown-item" href="/lab7/bai2">Bai 2</a></li>
+              <li><a class="dropdown-item" href="/lab5/bai3">Bai 3</a></li>
              
               <li><hr class="dropdown-divider" /></li>
             </ul>
